@@ -4,12 +4,15 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "dev": "node app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
