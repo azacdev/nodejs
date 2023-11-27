@@ -14,9 +14,9 @@ readFile("./content/first.txt", "utf8", (err, result) => {
       console.log(err);
       return;
     }
-    
+
     const second = result;
-    
+
     writeFile(
       "./content/result-async.txt",
       `hello this is a file created with writeFileSync, here is the result ${first}, ${second}`,
